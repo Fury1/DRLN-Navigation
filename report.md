@@ -20,7 +20,7 @@ Experience Replay was used to add some randomness to the training process and re
 
 Fixed Q-targets combats a different type of correlation. In a normal supervised deep neural network learning task we have a target value to train against, a *truth* known to us that we would like a network to converge to.
 
-In a reinforcement learning setting the optimal state value function Q(\pi)* target is not known, so an estimation needs to be made in regard to the true state value function target. The target used typically is `max(state', A)` (state' -> state prime, A -> state primes action values).
+In a reinforcement learning setting the optimal state value function Q($pi)* target is not known, so an estimation needs to be made in regard to the true state value function target. The target used typically is `max(state', A)` (state' -> state prime, A -> state primes action values).
 
 If an estimation is obtained by making a prediction using the network we are training on, the significance of that is the target we are adjusting to is affected by the weights we are adjusting. The correlation between targets and predictions are the weights of the network. By using the network we are training on to get `y^` (prediction) and using the *same* network to generate a target value get to, a game of cat and mouse has been created.
 
