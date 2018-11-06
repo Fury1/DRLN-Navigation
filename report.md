@@ -33,6 +33,7 @@ After a given number of episodes prediction network weights are copied over to t
 ### **Deep Neural Network Architecture**
 
 The deep neural network architecture used was as follows:
+
 |Layer | Value |
 |:-----:|:---:|
 |Input|environment state (vector length 37)|
