@@ -10,7 +10,7 @@ Traditional reinforcement learning algorithms typically utilize a Q-table that m
 
 Where a DQN differs is that instead of a Q-table being formed to map discrete states to actions, a deep neural network is used in place of the Q-table. This is where Deep reinforcement learning gets its name, it is a mix of traditional reinforcement learning techniques along with deep neural networks. To clarify further, instead of forming a Q-table, a deep neural network is used to predict Q-table values for a given state.
 
-Using a deep neural network in place of a Q-table has a few distinct advantages. Most notably, Q-tables can become excessively large in continuous state spaces. To use traditional machine learning techniques in a continues space requires some kind of discretization of the environment that an agent will be working in, this is sometimes just not possible. In addition, neural networks are highly non linear by nature and often offer superior performance at given tasks when trained properly.
+Using a deep neural network in place of a Q-table has a few distinct advantages. Most notably, Q-tables can become excessively large in continuous state spaces. To use traditional reinforcement learning techniques in a continuous space requires some kind of discretization of the environment that an agent will be working in, this is sometimes just not possible. In addition, neural networks are highly non linear by nature and often offer superior performance at given tasks when trained properly.
 
 What are the disadvantages? Reinforcement learning is notoriously unstable while using a neural network to represent actions values for a Q-table.
 
